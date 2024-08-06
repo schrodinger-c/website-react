@@ -1,0 +1,19 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+
+/* div which contains the header and de body */
+.App>:nth-child(1){
+    background: var(--black);
+    position: relative;
+}
+
+.white-gradient{
+    position: absolute;
+    width: 20rem;
+    height: 20em;
+    background: rgba(255, 255, 255, 0.522);
+    filter: blur(100px); /* This blur de gray square*/
+    border-radius: 100px;
+}
